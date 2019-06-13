@@ -1,0 +1,47 @@
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+.main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+.list-group-item  {
+  position: relative;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-control {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.inwork {
+  color: #61DAFB;
+}
+
+.icon {
+  cursor: pointer;
+}
